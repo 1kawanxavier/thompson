@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thompson - Gerador de Hashtag</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="components/css/index.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-4">Gerador de Hashtag</h2>
+        <form class="mt-4" id="formHashtag">
+            <div class="form-group">
+                <label for="frase">Digite uma frase:</label>
+                <input type="text" class="form-control" id="frase" name="frase" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Gerar Hashtag</button>
+        </form>
+
+        <div id="hashtagsGeradas" class="mt-4"></div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="components/js/exibirHashtag.js"></script>
+</body>
+</html>

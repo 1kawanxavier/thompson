@@ -1,0 +1,36 @@
+# Gerador de Hashtag
+
+
+Este é um projeto que permite gerar hashtags com base em uma frase fornecida pelo usuário. O projeto consiste em uma página web onde o usuário pode inserir uma frase e receber as hashtags geradas como resultado. As hashtags são geradas de acordo com diferentes formatos, incluindo PascalCase, lowercase, sem espaços, entre outros.
+
+## Funcionalidades
+
+- Formulário para inserir uma frase.
+- Processamento em PHP para gerar as hashtags.
+- Exibição das hashtags geradas na mesma página após o envio do formulário.
+- Estilização utilizando Bootstrap para uma aparência mais agradável.
+
+## Como usar
+
+1. Clone este repositório para o seu ambiente local.
+2. Certifique-se de ter um servidor web configurado (por exemplo, Apache, xampp, wampp).
+3. Coloque os arquivos do projeto no diretório do seu servidor web.
+4. Acesse a página `index.html` no seu navegador.
+5. Insira a frase desejada no campo fornecido.
+6. Clique no botão "Gerar Hashtag" para ver as hashtags geradas.
+
+## Estrutura do Projeto
+
+O projeto está organizado da seguinte forma:
+
+- **index.html**: Página principal onde o usuário insere a frase para gerar as hashtags.
+- **components/php/geraHashtag.php**: Script PHP para processar a geração das hashtags.
+- **components/js/exibirHashtag.js**: Script JavaScript para enviar a frase para o PHP e exibir as hashtags geradas na página.
+- **components/css/index.css**: Estilos CSS adicionais para personalizar a aparência da página.
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS (Bootstrap)
+- JavaScript
+- PHP
