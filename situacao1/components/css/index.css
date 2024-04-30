@@ -1,0 +1,36 @@
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.resultado {
+    padding: 20px;
+    background-color: #f0f8ff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.resultado-texto {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.resultado-classificacao {
+    background-color: #f0f8ff; 
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}

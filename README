@@ -1,0 +1,40 @@
+# Classificação de Pacotes
+
+Este é um projeto que permite classificar pacotes com base no seu peso. O projeto consiste em uma página web onde o usuário pode inserir o peso do pacote em quilogramas e receber a classificação do pacote como resultado. A classificação é feita de acordo com os seguintes critérios:
+
+- **Leve**: até 3kg
+- **Médio**: até 10kg
+- **Pesado**: até 100kg
+- **Muito Pesado**: acima de 100kg
+
+## Funcionalidades
+
+- Formulário para inserir o peso do pacote.
+- Processamento em PHP para classificar o pacote.
+- Exibição da classificação na mesma página após o envio do formulário.
+- Estilização utilizando Bootstrap para uma aparência mais agradável.
+
+## Como usar
+
+1. Clone este repositório para o seu ambiente local.
+2. Certifique-se de ter um servidor web configurado (por exemplo, Apache, xampp, wampp).
+3. Coloque os arquivos do projeto no diretório do seu servidor web.
+4. Acesse a página `index.html` no seu navegador.
+5. Insira o peso do pacote no campo fornecido.
+6. Clique no botão "Classificar" para ver a classificação do pacote.
+
+## Estrutura do Projeto
+
+O projeto está organizado da seguinte forma:
+
+- **index.html**: Página principal onde o usuário insere o peso do pacote.
+- **components/php/classificaPacote.php**: Script PHP para processar a classificação do pacote.
+- **components/js/exibirClassificacao.js**: Script JavaScript para exibir a classificação na página.
+- **components/css/index.css**: Estilos CSS adicionais para personalizar a aparência da página.
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS (Bootstrap)
+- JavaScript
+- PHP
