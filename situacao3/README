@@ -1,0 +1,36 @@
+# Estatísticas de Serviços de E-mail
+
+Este é um projeto que visa fornecer estatísticas sobre serviços de e-mail com base em uma lista de endereços de e-mail fornecidos. A função principal deste projeto é analisar os endereços de e-mail, extrair os domínios de e-mail correspondentes e contar a quantidade de e-mails em cada domínio. Os resultados são apresentados em um formato JSON, ordenados do domínio com mais e-mails para o domínio com menos e-mails.
+
+## Funcionalidades
+
+- Função PHP para processar a lista de endereços de e-mail e gerar estatísticas.
+- Página HTML para inserir a lista de endereços de e-mail e exibir os resultados.
+- Opção para baixar o arquivo JSON gerado.
+
+## Como Usar
+
+1. Clone este repositório para o seu ambiente local.
+2. Certifique-se de ter um servidor web configurado (por exemplo, Apache, XAMPP, WAMP).
+3. Coloque os arquivos do projeto no diretório do seu servidor web.
+4. Acesse a página `index.php` no seu navegador.
+5. Insira a lista de endereços de e-mail separados por vírgula no campo fornecido.
+6. Clique no botão "Enviar" para processar a lista e ver os resultados.
+7. Você pode baixar o arquivo JSON gerado para análises adicionais.
+
+## Estrutura do Projeto
+
+O projeto está organizado da seguinte forma:
+
+- **index.php**: Página principal onde o usuário insere a lista de endereços de e-mail e visualiza os resultados.
+- **components/php/pesquisa.php**: Script PHP para processar a lista de endereços de e-mail e gerar as estatísticas.
+- **email/**: Diretório onde o arquivo JSON gerado é salvo.
+- **components/css/index.css**: Estilos CSS adicionais para personalizar a aparência da página.
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS (Bootstrap)
+- PHP
+
+
